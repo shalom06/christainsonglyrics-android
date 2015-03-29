@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="adobe_products">
+        
+        <item>trains</item>
+		<item>A Babe is born all of a maid</item>
+		<item>A Babe is Born in Bethlehem</item>
+		<item>A babe lies in the cradle</item>
+		<item>Amazing Grace Hymn</item>
+		<item>Be Thou My Vision Hymn</item>
+		<item>Hallelujah Chorus Hymn</item>
+		<item>How Great Thou Art Hymn</item>
+		<item>In The Garden Hymn</item>
+		<item>It Is Well With My Soul Hymn</item>
+		<item>Jerusalem Hymn</item>
+		<item>Joyful Joyful Hymn</item>
+		<item>Just A Closer Walk With Thee Hymn</item>
+                <item>Nearer My God To Thee Hymn</item>
+		<item>Rock Of Ages Hymn</item>
+		<item>The Little Lord Jesus</item>
+		<item>The song of triumph</item>
+		<item>This Little Light Of Mine Hymn</item>
+		
+		
+		
+		
+
+    </string-array>
+</resources>

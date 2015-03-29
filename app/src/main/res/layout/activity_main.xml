@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Editext for Search -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="          Sing Along"
+        android:id="@+id/textView2"
+        android:textSize="40dp"
+        android:background="#ff4d9f90" />
+
+    <EditText android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Search Lyrics.."
+        android:inputType="textVisiblePassword"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:textSize="15dp" />
+
+    <!-- List View -->
+    <ListView
+        android:id="@+id/linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:clickable="true"
+        android:overScrollFooter="#ff179e92"
+        android:overScrollHeader="#ff009587" />
+
+</LinearLayout>
