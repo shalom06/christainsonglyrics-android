@@ -1,34 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:divider="@drawable/abc_list_pressed_holo_light">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        ></include>
+
 
     <!-- Editext for Search -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="57dp"
-        android:text="          Sing Along"
-        android:id="@+id/textView2"
-        android:textSize="40dp"
-        android:background="#ff4d9f90" />
 
-    <EditText android:id="@+id/inputSearch"
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+
+        android:textCursorDrawable="@color/White"
+
+        android:drawableLeft="@drawable/ic_search"
+        android:elevation="6dp"
+        android:paddingLeft="16dp"
+
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:hint="Search Lyrics.."
+
+        android:hint="  |    Click here to search songs    |"
         android:inputType="textVisiblePassword"
-        style="@style/Base.TextAppearance.AppCompat"
-        android:textSize="15dp" />
+
+        android:textSize="20dp"
+        android:textIsSelectable="false"
+        android:background="@color/ColorPrimary"
+        android:textColorHint="#ffffffff"
+        android:textColor="#ffffffff"
+
+         />
 
     <!-- List View -->
+
     <ListView
         android:id="@+id/linear"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffffff"
-        android:clickable="true"
-        android:overScrollFooter="#ff179e92"
-        android:overScrollHeader="#ff009587" />
+        android:layout_below="@+id/inputSearch"
 
-</LinearLayout>
+        android:layout_width="fill_parent"
+        android:layout_height="550dp"
+        android:scrollbarThumbVertical="@color/ColorPrimary"
+        android:background="#ffffffff"
+        android:layout_weight="1"
+
+
+        android:clickable="true"
+        android:fastScrollAlwaysVisible="true"
+        android:fastScrollEnabled="true"
+        android:overScrollFooter="#ff5722"
+        android:overScrollHeader="#ff5722"
+
+
+        android:touchscreenBlocksFocus="true"
+        android:stackFromBottom="false"
+        android:smoothScrollbar="true"
+        android:scrollingCache="false"
+        android:nestedScrollingEnabled="false"
+        android:fastScrollStyle="@color/ColorPrimary"/>
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+
+
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fab"
+        fab:fab_colorNormal="#AD1457"
+        fab:fab_colorPressed="#AD1457"
+        fab:fab_colorRipple="#F500"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="25dp"/>
+
+
+
+
+</RelativeLayout>

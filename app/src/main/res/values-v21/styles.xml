@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/material_deep_teal_500</item>
-        <item name="android:colorPrimaryDark">@color/material_deep_teal_500</item>
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+            <item name="colorPrimary">@color/ColorPrimary</item>
+            <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+            <item name="android:colorAccent">#FFFFFF</item>
+            <item name="android:textColorHighlight">@color/ora</item>
+            <!-- Customize your theme here. -->
+        </style>
+
+
         <!-- Customize your theme here. -->
-    </style>
+
 </resources>

@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">lyrics</string>
+    <string name="app_name">Christian Song Lyrics</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="race_orc"><p>Broken down, feeling naked \n Leaving me unfulfilled \nPromising compro </p></string>
+
 </resources>

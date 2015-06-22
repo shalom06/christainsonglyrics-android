@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
-    <TextView android:id="@+id/product_label"
-        android:layout_width="fill_parent"
+    android:id="@+id/mainLayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dip"
+        android:gravity="center"
+
+
         android:textStyle="bold"
+        android:textSize="20dip"
+        android:textIsSelectable="true"
+
+        android:textColor="#ff000000"
+
+        android:id="@+id/textView" />
+
+    <TextView android:id="@+id/product_label1"
+
+        android:layout_width="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+
         android:padding="10dip"
-        android:textColor="#ff000000"/>
+        android:textColor="#ff000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Lyrics."
+        android:id="@+id/button"
+        android:layout_gravity="right|bottom"
+        android:singleLine="false"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:background="#ffffffff"
+
+        android:shadowColor="@color/ColorPrimary"
+        android:elevation="6dp"
+        android:textColor="@color/ColorPrimaryDark" />
 
 
-</LinearLayout>
+</FrameLayout>

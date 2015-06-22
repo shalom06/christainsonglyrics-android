@@ -4,12 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="Christian Song Lyrics"
             android:windowSoftInputMode="stateHidden">
 
             <intent-filter>
@@ -20,7 +20,16 @@
         </activity>
         <activity
             android:name=".second"
-            android:label="@string/app_name"></activity>
+            android:label="Sing Along:"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity
+            android:name=".aboutus"
+            android:label="Sing Along:"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
     </application>
 
 </manifest>
