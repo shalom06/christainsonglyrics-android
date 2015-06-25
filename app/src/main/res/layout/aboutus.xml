@@ -13,7 +13,7 @@
         android:textStyle="italic|bold"
         android:textColor="#ff000000"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="About us."
+        android:text="I see you're curious to know about us!"
         android:id="@+id/textView2" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:textSize="20dp"
-        android:text="We are just two Childhood friends who love to code.  "
+        android:text="We are just two coders responsible for making this app ;)"
         android:id="@+id/textView3"
         android:textColor="#ff000000" />
 
