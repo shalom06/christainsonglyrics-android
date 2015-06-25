@@ -21,7 +21,6 @@
         android:layout_marginTop="50dp"
         android:textStyle="italic"
 
-        android:textCursorDrawable="@color/White"
 
         android:drawableLeft="@drawable/ic_search"
         android:elevation="6dp"
@@ -30,10 +29,10 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
 
-        android:hint="  |    Click here to search songs    |"
+        android:hint="    Search Songs."
         android:inputType="textVisiblePassword"
 
-        android:textSize="20dp"
+        android:textSize="17dp"
         android:textIsSelectable="false"
         android:background="@color/ColorPrimary"
         android:textColorHint="#ffffffff"
@@ -46,19 +45,21 @@
     <ListView
         android:id="@+id/linear"
         android:layout_below="@+id/inputSearch"
-
+        android:divider="#B6B6B6"
+        android:dividerHeight="0.15dp"
+        android:animateLayoutChanges="true"
         android:layout_width="fill_parent"
         android:layout_height="550dp"
         android:scrollbarThumbVertical="@color/ColorPrimary"
-        android:background="#ffffffff"
+        android:background="#FFFFFF"
         android:layout_weight="1"
 
 
         android:clickable="true"
         android:fastScrollAlwaysVisible="true"
         android:fastScrollEnabled="true"
-        android:overScrollFooter="#ff5722"
-        android:overScrollHeader="#ff5722"
+        android:overScrollFooter="@color/ColorPrimary"
+        android:overScrollHeader="@color/ColorPrimary"
 
 
         android:touchscreenBlocksFocus="true"
@@ -66,7 +67,7 @@
         android:smoothScrollbar="true"
         android:scrollingCache="false"
         android:nestedScrollingEnabled="false"
-        android:fastScrollStyle="@color/ColorPrimary"/>
+        android:fastScrollStyle="@color/ColorPrimary" />
 
 
     <com.melnykov.fab.FloatingActionButton

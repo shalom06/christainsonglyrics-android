@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
     <resources>>
-        <color name="ColorPrimary">#FF5722</color>
-        <color name="ColorPrimaryDark">#E64A19</color>
+        <color name="ColorPrimary">#3F51B5</color>
+        <color name="ColorPrimaryDark">#303F9F</color>
         <color name="White">#FFFFFF</color>
         <color name="ora">#FFB7</color>
         <color name="pur">#1976D2</color>
