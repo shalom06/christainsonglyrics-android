@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.TypedValue;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -60,7 +61,7 @@ public class second extends Activity{
         String lyrics1 = lyrics.replace("’", "'");
 
 
-        txtProduct.setText(lyrics1);
+                txtProduct.setText(lyrics1);
         textView.setText(products);
 
         button.setOnClickListener(new View.OnClickListener() {

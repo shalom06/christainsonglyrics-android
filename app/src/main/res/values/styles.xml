@@ -4,7 +4,9 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/ColorPrimary</item>
         <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
-        <item name="android:textColorHighlight">@color/ora</item>
+
+
+        <item name="android:textColorHighlight">@color/pur</item>
 
         <!-- Customize your theme here. -->
     </style>

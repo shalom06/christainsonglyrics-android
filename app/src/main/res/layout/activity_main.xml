@@ -18,7 +18,7 @@
 
     <EditText
         android:id="@+id/inputSearch"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:textStyle="italic"
 
 
@@ -29,7 +29,7 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
 
-        android:hint="    Search Songs."
+        android:hint="    Find songs"
         android:inputType="textVisiblePassword"
 
         android:textSize="17dp"

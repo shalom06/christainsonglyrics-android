@@ -7,8 +7,8 @@
 
             <item name="colorPrimary">@color/ColorPrimary</item>
             <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
-            <item name="android:colorAccent">#FFFFFF</item>
-            <item name="android:textColorHighlight">@color/ora</item>
+            <item name="android:colorAccent">#FF4081</item>
+            <item name="android:textColorHighlight">@color/pur</item>
             <!-- Customize your theme here. -->
         </style>
 

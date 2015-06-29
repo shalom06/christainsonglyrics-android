@@ -13,7 +13,7 @@
         android:textStyle="italic|bold"
         android:textColor="#ff000000"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="I see you're curious to know about us!"
+        android:text="Hello There!"
         android:id="@+id/textView2" />
 
     <TextView
