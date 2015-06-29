@@ -16,7 +16,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        compileOptions.encoding = 'ISO-8859-1'
+
     }
 }
 
@@ -26,6 +26,7 @@ dependencies {
     compile 'com.melnykov:floatingactionbutton:1.3.0'
     compile 'com.github.rey5137:material:1.1.1'
     compile 'com.rengwuxian.materialedittext:library:2.1.4'
+
 
 
 
