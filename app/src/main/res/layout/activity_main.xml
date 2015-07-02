@@ -45,14 +45,17 @@
     <ListView
         android:id="@+id/linear"
         android:layout_below="@+id/inputSearch"
-        android:divider="#B6B6B6"
+        android:divider="#CDCDCD"
         android:dividerHeight="0.15dp"
         android:animateLayoutChanges="true"
         android:layout_width="fill_parent"
         android:layout_height="550dp"
-        android:scrollbarThumbVertical="@color/ColorPrimary"
-        android:background="#FFFFFF"
+
+        android:background="@color/White"
+        android:focusable="true"
         android:layout_weight="1"
+        android:scrollbarSize="10dp"
+        android:scrollbarThumbVertical="@drawable/scrolbar"
 
 
         android:clickable="true"
