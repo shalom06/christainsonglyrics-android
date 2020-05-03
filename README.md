@@ -6,6 +6,6 @@ Merge requests are appreciated .
 
 #Some Screenshots
 
-![](1.jpg)
-![](2.jpg)
-![](3.jpg)
+![](app/1.jpg)
+![](app/2.jpg)
+![](app/3.jpg)
