@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:paddingTop="16dp"
+  android:paddingBottom="16dp"
+  android:layout_height="wrap_content"
+  android:background="@color/ColorPrimaryDark">
+
+  <android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+      android:id="@+id/songName"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="16dp"
+      android:fontFamily="sans-serif-medium"
+      android:maxLines="2"
+      android:textColor="@color/White"
+      android:textSize="25sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/favorites"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:text="Long String to test" />
+
+    <ImageView
+      android:id="@+id/favorites"
+      android:layout_width="28dp"
+      android:layout_height="28dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/favorites"
+      android:backgroundTint="@color/White"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/share"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+      android:id="@+id/share"
+      android:layout_width="28dp"
+      android:layout_height="28dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/ic_share"
+      android:backgroundTint="@color/White"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent" />
+  </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.Toolbar>

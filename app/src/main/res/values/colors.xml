@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <resources>>
-        <color name="ColorPrimary">#3F51B5</color>
-        <color name="ColorPrimaryDark">#303F9F</color>
-        <color name="White">#FFFFFF</color>
-        <color name="ora">#FFB7</color>
-        <color name="pur">#1976D2</color>
-        <color name="Acc">#FF4081</color>
+<resources>>
+  <color name="ColorPrimary">#303F9F</color>
+  <color name="ColorPrimaryDark">#303F9F</color>
+  <color name="White">#FFFFFF</color>
+  <color name="ora">#FFB7</color>
+  <color name="pur">#1976D2</color>
+  <color name="Acc">#FF4081</color>
+  <color name="Black">#000000</color>
 
-    </resources>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/mainLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/White"
+  android:descendantFocusability="beforeDescendants"
+  android:focusableInTouchMode="true"
+  android:orientation="vertical">
+
+  <include
+    android:id="@+id/toolbar"
+    layout="@layout/lyrics_toolbar"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+  <TextView
+    android:id="@+id/lyrics"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:textColor="#ff000000"
+    android:textIsSelectable="true"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+</android.support.constraint.ConstraintLayout>

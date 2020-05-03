@@ -1,96 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:fab="http://schemas.android.com/apk/res-auto"
-    xmlns:app="http://schemas.android.com/tools"
-
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:divider="@drawable/abc_list_pressed_holo_light">
-    <include
-        android:id="@+id/tool_bar"
-        layout="@layout/tool_bar"
-        ></include>
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
 
 
-    <!-- Editext for Search -->
+  <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bottom_navigation" />
 
-
-    <EditText
-        android:id="@+id/inputSearch"
-        android:layout_marginTop="60dp"
-        android:textStyle="italic"
-
-
-        android:drawableLeft="@drawable/ic_search"
-        android:elevation="6dp"
-        android:paddingLeft="16dp"
-
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-
-        android:hint="    Find songs"
-        android:inputType="textVisiblePassword"
-
-        android:textSize="17dp"
-        android:textIsSelectable="false"
-        android:background="@color/ColorPrimary"
-        android:textColorHint="#ffffffff"
-        android:textColor="#ffffffff"
-
-         />
-
-    <!-- List View -->
-
-    <ListView
-        android:id="@+id/linear"
-        android:layout_below="@+id/inputSearch"
-        android:divider="#CDCDCD"
-        android:dividerHeight="0.15dp"
-        android:animateLayoutChanges="true"
-        android:layout_width="fill_parent"
-        android:layout_height="550dp"
-
-        android:background="@color/White"
-        android:focusable="true"
-        android:layout_weight="1"
-        android:scrollbarSize="10dp"
-        android:scrollbarThumbVertical="@drawable/scrolbar"
-
-
-        android:clickable="true"
-        android:fastScrollAlwaysVisible="true"
-        android:fastScrollEnabled="true"
-        android:overScrollFooter="@color/ColorPrimary"
-        android:overScrollHeader="@color/ColorPrimary"
-
-
-        android:touchscreenBlocksFocus="true"
-        android:stackFromBottom="false"
-        android:smoothScrollbar="true"
-        android:scrollingCache="false"
-        android:nestedScrollingEnabled="false"
-        android:fastScrollStyle="@color/ColorPrimary" />
-
-
-    <com.melnykov.fab.FloatingActionButton
-        android:id="@+id/fab"
-
-
-        android:layout_width="334dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/fab"
-        fab:fab_colorNormal="#AD1457"
-        fab:fab_colorPressed="#AD1457"
-        fab:fab_colorRipple="#F500"
-        android:layout_gravity="bottom|right"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginRight="25dp"/>
-
-
+  <android.support.design.widget.BottomNavigationView
+    android:id="@+id/bottom_navigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="?android:attr/windowBackground"
+    app:menu="@menu/bottom_navigation" />
 
 
 </RelativeLayout>
